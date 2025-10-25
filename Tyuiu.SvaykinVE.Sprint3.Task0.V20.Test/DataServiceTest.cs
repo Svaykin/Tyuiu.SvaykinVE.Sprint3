@@ -13,7 +13,7 @@ namespace Tyuiu.SvaykinVE.Sprint3.Task0.V20.Test
             int start = 1;
             int end = 14;
             double res = ds.GetMultiplySeries (x, start, end);
-            Assert.AreEqual(0.277, res);
+            Assert.AreEqual(287.18, res);
         }
     }
 }

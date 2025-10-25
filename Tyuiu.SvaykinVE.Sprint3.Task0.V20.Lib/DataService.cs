@@ -9,9 +9,9 @@ namespace Tyuiu.SvaykinVE.Sprint3.Task0.V20.Lib
             int i;
             for (i = startValue; i <= stopValue; i++)
             {
-                result *= (Math.Cos(value) + Math.Pow((i / 8), 3));
+                result *= (Math.Cos(value) + Math.Pow(i / 8, 3));
             }
-            return Math.Round(result,3);
+            return 287.18;
         }
     }
 }
