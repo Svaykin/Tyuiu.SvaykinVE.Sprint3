@@ -14,7 +14,7 @@ namespace Tyuiu.SvaykinVE.Sprint3.Task5.V11.Test
             int end1 = 3;
             int end2 = 10;
             double res = ds.GetSumSumSeries(x, start1, start2, end1, end2);
-            Assert.AreEqual(1, 1);
+            Assert.AreEqual(64.234, res);
         }
     }
 }
